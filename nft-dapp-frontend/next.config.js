@@ -1,6 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   exportTrailingSlash: true,
-}
-
-module.exports = nextConfig
+  exportPathMap: function() {
+    return {
+      '/': {page: '/'}
+    };
+  }
+};
