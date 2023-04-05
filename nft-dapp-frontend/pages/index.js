@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { Contract, providers, ethers } from "ethers";
 import React, { useEffect, useState, useRef } from "react";
 import Web3Modal from "web3modal";
-import { NFT_CONTRACT_ADDRESS, abi } from "./constants/consts";
+import { NFT_CONTRACT_ADDRESS, abi } from "../constants/consts";
 
 const inter = Inter({ subsets: ["latin"] });
 
